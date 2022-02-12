@@ -11,7 +11,7 @@ body {
     height: 100px;
     margin-right: 0;
     margin-left: 10px;
-    margin-top: 10px;    /* if you want it vertically middle of the navbar. */
+    margin-top: 10px;    
 }
 
         body {
@@ -87,6 +87,7 @@ p {
 
 .container {
   background-color: rgba(25, 28, 39, 0.76);
+  margin-top: 30px;
 }
 
  .taustata {
@@ -98,8 +99,14 @@ p {
    padding: 24px;
  }
 
- ul {
+ 
+ul {
   list-style-image: url('images/arrow.svg');
-  
+}
+.suurendatud {
+  font: size 32px;
+}
+ul li span {
+  font-size: 16px;
   color: white;
 }
