@@ -84,5 +84,22 @@ p {
     font-size: 18px;
     color: white;
 }
-          
-        
+
+.container {
+  background-color: rgba(25, 28, 39, 0.76);
+}
+
+ .taustata {
+   background: none;
+   margin-top: 50px;
+ }   
+
+ .row {
+   padding: 24px;
+ }
+
+ ul {
+  list-style-image: url('images/arrow.svg');
+  
+  color: white;
+}
