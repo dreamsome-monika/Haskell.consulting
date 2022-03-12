@@ -1,0 +1,99 @@
+body {
+  background-image: url('images/dots.png');
+  background-size: cover;
+}
+
+
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  height: 100px;
+  margin-right: 0;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-size: 28px;
+  padding: 42px 42px;
+}
+
+.bg-haskell {
+  background-color: rgba(25, 28, 39, 0.76);
+}
+
+a.nav-link:hover {
+  background-color: rgba(84, 106, 123, 0.76);
+}
+
+
+h1 {
+  font-size: 28px;
+  color: white;
+}
+
+h2 {
+  font-size: 24px;
+  font-style: italic;
+  color: white;
+}
+
+p {
+  font-size: 18px;
+  color: white;
+}
+
+.taustaga {
+  background-color: rgba(25, 28, 39, 0.76);
+  height: 100%;
+}
+
+.taustaoverlay {
+  background-color: rgba(25, 28, 39, 0.55);
+  height: 100%;
+  width: 100%;
+}
+
+
+ul {
+  list-style-image: url('images/arrow.svg');
+}
+
+.suurendatud li::marker {
+  font-size: 3rem;
+}
+
+.suurendatud {
+  font: size 32px;
+}
+
+ul li span {
+  font-size: 16px;
+  color: white;
+}
+
+
+.ml-auto {
+  background-color: rgba(25, 28, 39, 0.76);
+  margin-top: 30px;
+  color: white;
+}
+
+
+.taustapilt {
+  background-image: url(images/contact_img.jpg);
+  background-position: center;
+  height: 400px;
+  background-size: cover;
+}
+
+
+.g-6, .gx-6 {
+  --bs-gutter-x: 5rem;
+}
