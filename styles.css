@@ -135,9 +135,8 @@ dream-li {
   .direction {
     font-size: 20px;
   }
-.kopirait {
-  font-size: 12px;
-}
+
+
 .myBtn {
   position: fixed; 
   bottom: 20px; /* Place the button at the bottom of the page */
@@ -154,4 +153,38 @@ dream-li {
 .myBtn:hover {
   color: #546A7B; 
   
+}
+footer {
+margin-top: 15px;
+
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  margin-top: 40px;
+  margin-left: 70px;
+  
+}
+
+a:hover {
+  background-color: none;
+  color: #546A7B;
+
+}
+
+.previous {
+  background-color: none;
+  color: white;
+  font-size: 1.5em;
+  text-decoration: underline;
+  
+}
+
+.projektipilt {
+  --bs-gutter-x: 9rem;
+  margin-top: -30px;
+  margin-left: -120px;
+  margin-right: -120px;
+  margin-bottom: 90px;
 }
